@@ -1,0 +1,26 @@
+{
+  "name": "@datalogui/react",
+  "version": "0.0.1",
+  "description": "Helpful DatalogUI hooks for React",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/datalogui/react",
+  "author": "marco",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "peerDependencies": {
+    "@datalogui/datalog": "0.0.2",
+    "react": ">=16"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "license": "(MIT OR Apache-2.0)",
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "npm-install-peers": "^1.2.1",
+    "typescript": "^3.8.3"
+  }
+}
